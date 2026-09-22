@@ -51,7 +51,7 @@
 
 <p align="center">
   💬 <b>Technical Focus:</b> Full-Stack Development, Data Structures &amp; Algorithms, Core Software Engineering &amp; Modern Web.<br />
-  ⚡ <b>Engineering Philosophy:</b> <i>"Code is the craft of turning curiosity into reality — transforming raw ideas into impactful software."</i>
+  ⚡ <b>Engineering Philosophy:</b> <i>"Code is the bridge between imagination and reality — building software that creates a lasting impact."</i>
 </p>
 
 <table width="100%" border="0" align="center">
@@ -195,7 +195,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SwapnaneelNaskar/SwapnaneelNaskar/main/assets/quote.svg" width="100%" style="max-width: 760px;" alt="Code and Art Quote" />
+  <img src="https://raw.githubusercontent.com/SwapnaneelNaskar/SwapnaneelNaskar/main/assets/quote.svg?v=3" width="100%" style="max-width: 760px;" alt="Code Quote" />
 </p>
 
 ---
