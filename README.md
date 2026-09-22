@@ -58,69 +58,41 @@
 <tr>
 <td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
   <h4>🔭 Flagship Project</h4>
-  <p><a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank"><b>Weather Analytics Web App</b></a><br /><sub>Interactive Geolocation Forecasts, Metrics &amp; Real-time API Integration</sub></p>
+  <p><a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank"><b>NEXUS Weather + Map</b></a><br /><sub>Live Geolocation Forecasts, Interactive Map &amp; Glassmorphism UI</sub></p>
 </td>
 <td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
   <h4>🌱 Active Deep Dives</h4>
-  <p><b>Advanced DSA &amp; Systems Programming</b><br /><sub>Trees, Graphs, Memory Management &amp; Algorithmic Optimization</sub></p>
+  <p><b>DSA &amp; Problem Solving</b><br /><sub>Algorithms, Optimization &amp; Core Computer Science</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
-  <h4>🎨 Creative Engineering</h4>
-  <p><a href="https://github.com/SwapnaneelNaskar" target="_blank"><b>Modern UI/UX &amp; Interactive Web</b></a><br /><sub>Micro-interactions, Responsive UI Systems &amp; Clean Web Apps</sub></p>
+  <h4>🎨 Technical Focus</h4>
+  <p><b>Responsive Web &amp; Frontend Systems</b><br /><sub>Modern JavaScript, Interactive Map APIs &amp; Modern UI</sub></p>
 </td>
 <td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
   <h4>🤝 Opportunities</h4>
-  <p><b>Internships &amp; Open Source</b><br /><sub>Ready to contribute to high-velocity software engineering teams</sub></p>
+  <p><b>Internships &amp; Collaborations</b><br /><sub>Ready to contribute to passionate developer teams &amp; projects</sub></p>
 </td>
 </tr>
 </table>
 
 ---
 
-<h2 align="center">🔴 Featured Projects Portfolio</h2>
+<h2 align="center">🔴 Featured Project Spotlight</h2>
 
 <table width="100%" border="0" align="center">
 <tr>
 <td width="100%" align="center" style="padding: 24px; border: 1px solid rgba(239,68,68,0.3); border-radius: 12px; background: #0c0709;">
-  <h3>🌦️ 1. Interactive Weather Analytics Dashboard</h3>
-  <p><i>A responsive, dynamic weather analytics application delivering real-time atmospheric tracking, city-wide geolocation search, multi-metric climate indicators, and a clean modern user interface.</i></p>
+  <h3>🌦️ NEXUS — Interactive Weather + Map Analytics</h3>
+  <p><i>A responsive, dynamic real-time weather analytics application featuring automatic geolocation tracking, interactive Leaflet.js mapping, multi-metric climate indicators, instant city search, and a modern glassmorphic interface.</i></p>
   <p>
-    <code>HTML5</code> • <code>CSS3 / Modern Flexbox</code> • <code>JavaScript ES6+</code> • <code>RESTful Weather APIs</code>
+    <code>HTML5</code> • <code>CSS3 / Glassmorphism</code> • <code>JavaScript ES6+</code> • <code>Leaflet.js Maps</code> • <code>RESTful Weather APIs</code> • <code>Geolocation API</code>
   </p>
   <br />
   <p>
     <a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank">
-      <img src="https://img.shields.io/badge/Explore%20Repo-⚡%20Full%20Architecture-DC2626?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="Explore Repo" />
-    </a>
-  </p>
-</td>
-</tr>
-<tr>
-<td width="100%" align="center" style="padding: 20px; border: 1px solid rgba(239,68,68,0.2); border-radius: 12px; background: #0a0a0a; margin-top: 12px;">
-  <h3>🛍️ 2. Modern Full-Stack E-Commerce Application</h3>
-  <p><i>Interactive web store featuring product catalogs, responsive shopping cart workflows, dynamic checkout state management, and modern component design.</i></p>
-  <p>
-    <code>HTML5</code> • <code>CSS3</code> • <code>JavaScript</code> • <code>Responsive Architecture</code> • <code>Web UI</code>
-  </p>
-  <p>
-    <a href="https://github.com/SwapnaneelNaskar" target="_blank">
-      <img src="https://img.shields.io/badge/Repository-💻%20View%20Code-111111?style=for-the-badge&logo=github&logoColor=EF4444&labelColor=0a0a0a" alt="Code" />
-    </a>
-  </p>
-</td>
-</tr>
-<tr>
-<td width="100%" align="center" style="padding: 20px; border: 1px solid rgba(239,68,68,0.2); border-radius: 12px; background: #0a0a0a; margin-top: 12px;">
-  <h3>🧩 3. Data Structures &amp; Algorithmic Problem Solving Suite</h3>
-  <p><i>A comprehensive implementation repository containing balanced search trees, linked lists, sorting algorithms, and time/space complexity optimization benchmarks.</i></p>
-  <p>
-    <code>C</code> • <code>C++</code> • <code>Python</code> • <code>Binary Search Trees</code> • <code>Linked Lists</code> • <code>Algorithm Design</code>
-  </p>
-  <p>
-    <a href="https://github.com/SwapnaneelNaskar" target="_blank">
-      <img src="https://img.shields.io/badge/Repository-💻%20View%20Code-111111?style=for-the-badge&logo=github&logoColor=EF4444&labelColor=0a0a0a" alt="Code" />
+      <img src="https://img.shields.io/badge/Repository-⚡%20View%20Source%20Code-DC2626?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="View Source Code" />
     </a>
   </p>
 </td>
