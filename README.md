@@ -51,7 +51,7 @@
 
 <p align="center">
   💬 <b>Technical Focus:</b> Full-Stack Development, Data Structures &amp; Algorithms, Core Software Engineering &amp; Modern Web.<br />
-  ⚡ <b>Engineering Philosophy:</b> <i>"Code is a craft — transforming intricate problems into fast, reliable, and user-centric digital reality."</i>
+  ⚡ <b>Engineering Philosophy:</b> <i>"Code is the craft of turning curiosity into reality — transforming raw ideas into impactful software."</i>
 </p>
 
 <table width="100%" border="0" align="center">
