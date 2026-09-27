@@ -87,7 +87,22 @@
   <h3>🛡️ CyberShield — AI Scam &amp; Threat Detection Web Platform</h3>
   <p><i>A real-time cybersecurity intelligence application combining machine learning (scikit-learn NLP), explainable heuristic rules, technical URL entropy &amp; TLD inspection, and client-side multi-photo OCR (Tesseract.js WebAssembly) to detect scam messages, fake delivery fees, banking phishing, and malicious URLs with 85%–98% calibrated accuracy.</i></p>
   <p>
-    <code>Python</code> • <code>FastAPI</code> • <code>scikit-learn</code> • <code>TF-IDF NLP</code> • <code>JavaScript ES6+</code> • <code>Tesseract.js OCR</code> • <code>Tailwind CSS</code> • <code>SQLite3</code>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  </p>
+  <p>
+    <code>Python (NLP &amp; ML)</code> • <code>JavaScript (DOM &amp; WebAssembly OCR)</code> • <code>HTML5 / Tailwind CSS</code> • <code>SQLite Database</code>
   </p>
   <br />
   <p>
@@ -213,7 +228,7 @@
 <p align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=SwapnaneelNaskar&show_icons=true&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&icon_color=ef4444&border_color=ef4444&border_radius=10" width="100%" style="max-width: 450px;" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SwapnaneelNaskar&layout=compact&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&border_color=ef4444&border_radius=10" width="100%" style="max-width: 360px;" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=SwapnaneelNaskar&layout=compact&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&border_color=ef4444&border_radius=10&hide=powershell,batchfile" width="100%" style="max-width: 360px;" alt="Top Languages" />
 </p>
 
 <p align="center">
