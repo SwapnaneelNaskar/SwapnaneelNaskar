@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/SwapnaneelNaskar">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&width=650&height=42&lines=Hi%20there!%20I'm%20Swapnaneel%20Naskar%20%F0%9F%91%8B;B.Tech%20Computer%20Science%20%26%20Engineering%20Student%20%F0%9F%8E%93;Full-Stack%20Web%20%26%20Software%20Developer%20%F0%9F%92%BB;C%2FC%2B%2B%20%E2%80%A2%20Python%20%E2%80%A2%20Java%20%E2%80%A2%20DSA%20%E2%80%A2%20Web%20Dev%20%E2%9A%A1;Turning%20complex%20ideas%20into%20scalable%20production%20code%20%F0%9F%9A%80" width="100%" style="max-width: 650px;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&width=650&height=42&lines=Hi%20there!%20I'm%20Swapnaneel%20Naskar%20%F0%9F%91%8B;B.Tech%20Computer%20Science%20%26%20Engineering%20Student%20%F0%9F%8E%93;Full-Stack%20Web%20%26%20Software%20Developer%20%F0%9F%92%BB;AI%20Scam%20Detector%20%E2%80%A2%20NEXUS%20Weather%20%E2%80%A2%20ML%20%26%20DSA%20%E2%9A%A1;Turning%20complex%20ideas%20into%20scalable%20production%20code%20%F0%9F%9A%80" width="100%" style="max-width: 650px;" alt="Typing SVG" />
   </a>
 </p>
 
@@ -56,21 +56,21 @@
 
 <table width="100%" border="0" align="center">
 <tr>
-<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
-  <h4>🔭 Flagship Project</h4>
-  <p><a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank"><b>NEXUS Weather + Map</b></a><br /><sub>Live Geolocation Forecasts, Interactive Map &amp; Glassmorphism UI</sub></p>
+<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.25); border-radius: 10px; background: rgba(10,10,10,0.5);">
+  <h4>🛡️ AI &amp; Cybersecurity</h4>
+  <p><a href="https://github.com/SwapnaneelNaskar/AiScamDetection_Website" target="_blank"><b>AI Scam Detector</b></a><br /><sub>ML Classification, NLP Heuristics, Multi-Photo OCR &amp; URL Entropy</sub></p>
 </td>
-<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
-  <h4>🌱 Active Deep Dives</h4>
-  <p><b>DSA &amp; Problem Solving</b><br /><sub>Algorithms, Optimization &amp; Core Computer Science</sub></p>
+<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.25); border-radius: 10px; background: rgba(10,10,10,0.5);">
+  <h4>🌦️ Flagship Web App</h4>
+  <p><a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank"><b>NEXUS Weather + Map</b></a><br /><sub>Live Geolocation Forecasts, Interactive Map &amp; Glassmorphism UI</sub></p>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
-  <h4>🎨 Technical Focus</h4>
-  <p><b>Responsive Web &amp; Frontend Systems</b><br /><sub>Modern JavaScript, Interactive Map APIs &amp; Modern UI</sub></p>
+<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.25); border-radius: 10px; background: rgba(10,10,10,0.5);">
+  <h4>🌱 Active Deep Dives</h4>
+  <p><b>DSA &amp; Machine Learning</b><br /><sub>Algorithms, Optimization, NLP Modeling &amp; Core CS</sub></p>
 </td>
-<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.2); border-radius: 10px; background: rgba(10,10,10,0.5);">
+<td width="50%" align="center" style="padding: 16px; border: 1px solid rgba(239,68,68,0.25); border-radius: 10px; background: rgba(10,10,10,0.5);">
   <h4>🤝 Opportunities</h4>
   <p><b>Internships &amp; Collaborations</b><br /><sub>Ready to contribute to passionate developer teams &amp; projects</sub></p>
 </td>
@@ -83,6 +83,26 @@
 
 <table width="100%" border="0" align="center">
 <tr>
+<td width="100%" align="center" style="padding: 24px; border: 1px solid rgba(239,68,68,0.35); border-radius: 12px; background: #0c0709;">
+  <h3>🛡️ CyberShield — AI Scam &amp; Threat Detection Web Platform</h3>
+  <p><i>A real-time cybersecurity intelligence application combining machine learning (scikit-learn NLP), explainable heuristic rules, technical URL entropy &amp; TLD inspection, and client-side multi-photo OCR (Tesseract.js WebAssembly) to detect scam messages, fake delivery fees, banking phishing, and malicious URLs with 85%–98% calibrated accuracy.</i></p>
+  <p>
+    <code>Python</code> • <code>FastAPI</code> • <code>scikit-learn</code> • <code>TF-IDF NLP</code> • <code>JavaScript ES6+</code> • <code>Tesseract.js OCR</code> • <code>Tailwind CSS</code> • <code>SQLite3</code>
+  </p>
+  <br />
+  <p>
+    <a href="https://github.com/SwapnaneelNaskar/AiScamDetection_Website" target="_blank">
+      <img src="https://img.shields.io/badge/Repository-⚡%20View%20Source%20Code-DC2626?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="View Source Code" />
+    </a>
+    &nbsp;
+    <a href="https://swapnaneelnaskar.github.io/AiScamDetection_Website/" target="_blank">
+      <img src="https://img.shields.io/badge/Live%20Demo-🌐%20Launch%20Website-111111?style=for-the-badge&logo=googlechrome&logoColor=EF4444&labelColor=0a0a0a" alt="Launch Live Website" />
+    </a>
+  </p>
+</td>
+</tr>
+<tr><td height="14"></td></tr>
+<tr>
 <td width="100%" align="center" style="padding: 24px; border: 1px solid rgba(239,68,68,0.3); border-radius: 12px; background: #0c0709;">
   <h3>🌦️ NEXUS — Interactive Weather + Map Analytics</h3>
   <p><i>A responsive, dynamic real-time weather analytics application featuring automatic geolocation tracking, interactive Leaflet.js mapping, multi-metric climate indicators, instant city search, and a modern glassmorphic interface.</i></p>
@@ -93,6 +113,10 @@
   <p>
     <a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank">
       <img src="https://img.shields.io/badge/Repository-⚡%20View%20Source%20Code-DC2626?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="View Source Code" />
+    </a>
+    &nbsp;
+    <a href="https://swapnaneelnaskar.github.io/weather_web/" target="_blank">
+      <img src="https://img.shields.io/badge/Live%20Demo-🌐%20Launch%20Website-111111?style=for-the-badge&logo=googlechrome&logoColor=EF4444&labelColor=0a0a0a" alt="Launch Live Website" />
     </a>
   </p>
 </td>
@@ -142,6 +166,8 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-0a0a0a?style=for-the-badge&logo=fastapi&logoColor=EF4444" alt="FastAPI" />
+  &nbsp;
   <img src="https://img.shields.io/badge/pandas-0a0a0a?style=for-the-badge&logo=pandas&logoColor=EF4444" alt="Pandas" />
   &nbsp;
   <img src="https://img.shields.io/badge/scikit--learn-0a0a0a?style=for-the-badge&logo=scikit-learn&logoColor=EF4444" alt="Scikit-Learn" />
