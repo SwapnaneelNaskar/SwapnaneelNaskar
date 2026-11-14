@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swapnaneel Naskar — Systems Architect & Full-Stack Engineer</title>
+  <meta name="description" content="Full-Stack Systems Architect & B.Tech CSE scholar at Techno India University designing real-time biometric portals, AI threat intelligence heuristics, and scalable web ecosystems.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+  <!-- OpenGraph & Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Swapnaneel Naskar" />
+  <meta property="og:title" content="Swapnaneel Naskar — Systems Architect & Full-Stack Engineer" />
+  <meta property="og:description" content="Architecting real-time biometric neural portals, AI-driven cybersecurity classifiers, and multi-vertical web platforms from first principles." />
+  <meta property="og:image" content="./swapnaneel-cutout.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Swapnaneel Naskar — Systems Architect & Full-Stack Engineer" />
+  <meta name="twitter:description" content="Architecting real-time biometric neural portals, AI-driven cybersecurity classifiers, and multi-vertical web platforms from first principles." />
+  <meta name="twitter:image" content="./swapnaneel-cutout.png" />
+
+  <!-- Google Fonts: Bebas Neue, Caveat, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Interactive Portfolio Application Script -->
+  <script src="./app.js" defer></script>
+  <script src="./swarm-init.js" defer></script>
+</head>
+<body>
+
+  <!-- Ambient Dynamic Canvas Background (Crimson & Noir Op-Art Aurora) -->
+  <canvas id="aurora-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Dock (Fixed Glassmorphic Bar) -->
+  <header class="dock-container">
+    <nav class="nav-dock" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand" aria-label="Swapnaneel Naskar Home">
+        <span class="brand-monogram">SN</span>
+        <span class="brand-label">SWAPNANEEL<span class="brand-dot">.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#flagships" class="nav-item">Flagships</a>
+        <a href="#projects" class="nav-item">Matrix</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+
+      <div class="dock-right">
+        <!-- Direct LinkedIn Badge in Header -->
+        <a href="https://www.linkedin.com/in/swapnaneel-naskar-70245a315/" target="_blank" rel="noopener noreferrer" class="dock-social-link" title="Connect on LinkedIn" style="color: #06b6d4; display: flex; align-items: center; padding: 4px 8px; border-radius: 9999px; background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.3); text-decoration: none; font-size: 11px; font-family: 'JetBrains Mono', monospace; font-weight: 700; gap: 4px;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+
+        <div class="dock-status" title="Currently open for software engineering opportunities & internships">
+          <span class="status-dot"></span>
+          <span class="status-text">Available</span>
+        </div>
+        <a href="#contact" class="dock-cta">DISPATCH &rarr;</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-grid" aria-hidden="true">
+        <div class="grid-line line-1"></div>
+        <div class="grid-line line-2"></div>
+        <div class="grid-line line-3"></div>
+      </div>
+
+      <div class="hero-wordmark-svg" aria-hidden="true">
+        <svg viewBox="0 0 1000 215" preserveAspectRatio="xMidYMid meet">
+          <text x="0" y="205" font-size="270" textLength="1000" lengthAdjust="spacingAndGlyphs">PORTFOLIO</text>
+        </svg>
+      </div>
+
+      <div class="hero-stage-grid">
+        <!-- Left Flank: Typography & Bio -->
+        <div class="hero-flank left-flank">
+          <div class="hero-script">Hello, I'm</div>
+          <h1 class="hero-name">SWAPNANEEL<span class="accent-red-dot">.</span></h1>
+
+          <div class="hero-role-pill">
+            <span class="pill-dot">●</span>
+            <span>FULL-STACK ARCHITECT &amp; CSE SCHOLAR</span>
+          </div>
+
+          <p class="hero-desc">
+            Architecting <strong>intelligent full-stack systems</strong>, real-time biometric neural portals, and <strong>AI-driven cybersecurity algorithms</strong> from first principles — zero frameworks assembly, total deterministic engineering.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-crimson">
+              <span>INITIATE DISPATCH</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#flagships" class="btn btn-glass">
+              <span>EXPLORE ARCHITECTURE</span>
+            </a>
+            <a href="https://www.linkedin.com/in/swapnaneel-naskar-70245a315/" target="_blank" rel="noopener noreferrer" class="btn btn-glass" style="color: #06b6d4; border-color: rgba(6, 182, 212, 0.4);">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LINKEDIN</span>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat-box">
+              <span class="stat-val">5+</span>
+              <span class="stat-lbl">Flagship Repos</span>
+            </div>
+            <div class="hero-stat-box">
+              <span class="stat-val">React 19</span>
+              <span class="stat-lbl">Core Stack</span>
+            </div>
+            <div class="hero-stat-box">
+              <span class="stat-val">100%</span>
+              <span class="stat-lbl">Offline-First</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Column: Noir & Crimson Framed Cutout Portrait -->
+        <div class="hero-center-col">
+          <div class="hero-cutout-wrap">
+            <div class="hero-portrait-panel" aria-hidden="true"></div>
+            <img src="./swapnaneel-cutout.png" alt="Swapnaneel Naskar" class="hero-cutout-img" width="480" height="480" loading="eager" />
+            <div class="cutout-status-badge">
+              <span class="status-pulse-red">●</span>
+              <span>SOVEREIGN SILICON ACTIVE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Flank: Live Runtime HUD Stack -->
+        <div class="hero-flank right-flank">
+          <div class="hud-stack">
+            <div class="hud-card">
+              <div class="hud-card-header">
+                <span class="hud-idx">01.</span>
+                <span class="hud-tag">RUNTIME</span>
+              </div>
+              <div class="hud-card-title">Biometric Neural Core</div>
+              <div class="hud-card-desc">On-device FaceAPI landmark detection &amp; 128-d Euclidean vector matching. Zero cloud biometric data leak.</div>
+            </div>
+
+            <div class="hud-card">
+              <div class="hud-card-header">
+                <span class="hud-idx">02.</span>
+                <span class="hud-tag">PRODUCTION</span>
+                <a href="https://swapnaneelnaskar.github.io/student-info-portal/" target="_blank" rel="noopener noreferrer" class="hud-live-link" title="Launch live Student Information Portal">LIVE &nearr;</a>
+              </div>
+              <div class="hud-card-title">Student Information Portal</div>
+              <div class="hud-card-desc">React 19 academic portal with biometric face verification, institutional SSO &amp; immutable CGPA ranking.</div>
+            </div>
+
+            <div class="hud-card">
+              <div class="hud-card-header">
+                <span class="hud-idx">03.</span>
+                <span class="hud-tag">EXECUTION</span>
+                <a href="https://swapnaneelnaskar.github.io/AiScamDetection_Website/" target="_blank" rel="noopener noreferrer" class="hud-live-link" title="Launch live AI Threat Intel Platform">LIVE &nearr;</a>
+              </div>
+              <div class="hud-card-title">AI Scam Threat Engine</div>
+              <div class="hud-card-desc">NLP phishing heuristic classifiers &amp; multi-photo OCR analysis with 0&ndash;100 risk scoring.</div>
+            </div>
+
+            <div class="hud-tech-tags">
+              <span class="tech-tag">React 19</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FaceAPI</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 01: BACKGROUND & PHILOSOPHY -->
+    <section id="about" class="section">
+      <div class="section-header">
+        <div class="section-tag">ENGINEER PROFILE</div>
+        <h2 class="section-title">Background &amp; Philosophy</h2>
+      </div>
+
+      <div class="about-container">
+        <div class="glass-card about-grid">
+          <div class="about-text-col">
+            <p class="about-text">
+              I am Swapnaneel Naskar &mdash; an aspiring software engineer and full-stack systems developer pursuing a <strong>B.Tech in Computer Science &amp; Engineering</strong> at <strong>Techno India University</strong>, Kolkata.
+            </p>
+            <p class="about-text">
+              However, my defining capabilities were forged in the terminal: developing <strong>React 19 concurrent web portals</strong>, implementing <strong>on-device neural face verification</strong>, crafting <strong>AI-powered threat detection heuristics</strong>, and mastering core data structures and algorithms. I view software engineering not as framework assembly, but as the rigorous orchestration of memory hierarchies, deterministic logic, clean state flow, and user-centric systems.
+            </p>
+            <div class="quote-box">
+              "I design and deploy intelligent web systems that operate with deterministic precision, real-time client verification, and production scalability &mdash; built from first principles, not frameworks."
+            </div>
+          </div>
+
+          <div class="about-principles-col">
+            <ul class="principles-list">
+              <li class="principle-item">
+                <span class="principle-num">01</span>
+                <div>
+                  <div class="principle-title">Deterministic Ground-Truth</div>
+                  <div class="principle-desc">Verify user identities and state transformations against client-side mathematical descriptors rather than trusting opaque endpoints.</div>
+                </div>
+              </li>
+              <li class="principle-item">
+                <span class="principle-num">02</span>
+                <div>
+                  <div class="principle-title">Zero Biometric Leakage</div>
+                  <div class="principle-desc">Run facial neural models directly inside WebAssembly, ensuring sensitive biometrics never leave the client device.</div>
+                </div>
+              </li>
+              <li class="principle-item">
+                <span class="principle-num">03</span>
+                <div>
+                  <div class="principle-title">Algorithmic Rigor &amp; Efficiency</div>
+                  <div class="principle-desc">Prioritize time complexity O(N log N) and space efficiency across all data processing and sorting pipelines.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: FLAGSHIP DEPLOYMENTS (7-LAYER CONSTITUTIONAL STACK) -->
+    <section id="flagships" class="section">
+      <div class="section-header">
+        <div class="section-tag">ARCHITECTURAL SHOWCASE</div>
+        <h2 class="section-title">Flagship Deployments</h2>
+        <p class="section-desc">
+          Production-grade systems running 24/7 across modern browser runtimes, machine learning pipelines, and multi-vertical web endpoints.
+        </p>
+      </div>
+
+      <div class="flagship-container">
+        <!-- Flagship 1: Student Information Portal (Highlighted 7-Layer Ecosystem) -->
+        <article class="glass-card flagship-card highlighted-card">
+          <div class="card-glow-red"></div>
+          
+          <div class="flagship-header">
+            <div class="flagship-badge">
+              <span>●</span> CORE ECOSYSTEM
+            </div>
+            <div class="flagship-meta">
+              Runtime: React 19 Concurrent &bull; 100% Client-Side Biometrics &bull; Zero Cloud Leak
+            </div>
+          </div>
+
+          <div class="flagship-body">
+            <div class="flagship-main-info">
+              <h3 class="flagship-title">Student Information Portal &mdash; React 19 Academic Ecosystem</h3>
+              <p class="flagship-desc">
+                An ultra-modern, dynamic academic management portal built in React 19. Enforces component reusability, prop-driven data flow, interactive state manipulation, immutable CGPA ranking, and <strong>real-time biometric face verification</strong> running entirely client-side.
+              </p>
+
+              <div class="flagship-metrics-row">
+                <div class="metric-pill">
+                  <div class="metric-num">&lt; 42ms</div>
+                  <div class="metric-desc">Biometric Match</div>
+                </div>
+                <div class="metric-pill">
+                  <div class="metric-num">React 19</div>
+                  <div class="metric-desc">Concurrent Actions</div>
+                </div>
+                <div class="metric-pill">
+                  <div class="metric-num">100%</div>
+                  <div class="metric-desc">Client Privacy</div>
+                </div>
+                <div class="metric-pill">
+                  <div class="metric-num">3 Roles</div>
+                  <div class="metric-desc">SSO Hierarchy</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive 7-Layer Architecture Explorer -->
+            <div class="saai-architecture-explorer">
+              <div class="explorer-header">
+                <div class="explorer-title">7-LAYER CONSTITUTIONAL STACK</div>
+                <div class="explorer-sub">Click any layer to inspect technical specs and implementation</div>
+              </div>
+
+              <div class="layer-tabs" role="tablist">
+                <button class="layer-tab active" data-layer="1" role="tab" aria-selected="true">L1: Neural Biometrics</button>
+                <button class="layer-tab" data-layer="2" role="tab" aria-selected="false">L2: Concurrent Runtime</button>
+                <button class="layer-tab" data-layer="3" role="tab" aria-selected="false">L3: Identity &amp; SSO</button>
+                <button class="layer-tab" data-layer="4" role="tab" aria-selected="false">L4: CGPA Rank Sorter</button>
+                <button class="layer-tab" data-layer="5" role="tab" aria-selected="false">L5: Threat Heuristics</button>
+                <button class="layer-tab" data-layer="6" role="tab" aria-selected="false">L6: Multi-Photo OCR</button>
+                <button class="layer-tab" data-layer="7" role="tab" aria-selected="false">L7: Offline Persistence</button>
+              </div>
+
+              <div class="layer-content-panel" id="layer-content">
+                <div class="layer-badge" id="layer-inspect-id">LAYER 01 // NEURAL BIOMETRICS</div>
+                <h4 class="layer-heading" id="layer-inspect-title">Client-Side FaceAPI Neural Core</h4>
+                <p class="layer-explanation" id="layer-inspect-desc">
+                  100% on-device biometric verification running via WebAssembly and TensorFlow.js. Extracts 68 facial landmarks and generates a 128-dimensional Euclidean facial vector descriptor in real time &mdash; completely eliminating biometric data leakage to third-party cloud servers.
+                </p>
+                <div class="layer-tags-row" id="layer-inspect-tags">
+                  <span class="tag">Client WASM</span>
+                  <span class="tag">128-d Vector Math</span>
+                  <span class="tag">Zero Cloud Leak</span>
+                  <span class="tag">TensorFlow.js</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flagship-actions-row">
+              <a href="https://swapnaneelnaskar.github.io/student-info-portal/" target="_blank" rel="noopener noreferrer" class="btn btn-crimson" title="Launch the live Student Information Portal in a new tab">
+                <span>LAUNCH LIVE PORTAL</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                </svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/student-info-portal" target="_blank" rel="noopener noreferrer" class="btn btn-glass" title="Open the GitHub repository">
+                <span>VIEW GITHUB REPO</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Flagship 2: AI Scam Detection -->
+        <article class="glass-card flagship-card">
+          <div class="flagship-header">
+            <div class="flagship-badge">
+              <span>●</span> CYBERSECURITY // ML THREAT INTEL
+            </div>
+            <div class="flagship-meta">
+              Stack: Python &bull; scikit-learn &bull; NLP Heuristics &bull; OCR
+            </div>
+          </div>
+          <div class="flagship-body">
+            <h3 class="flagship-title">AI Scam &amp; Threat Detection Web Application</h3>
+            <p class="flagship-desc">
+              Real-time cybersecurity threat intelligence application evaluating suspicious messages, phishing URLs, and screenshots with an interpretable risk score (0&ndash;100).
+            </p>
+            <ul class="flagship-bullets">
+              <li>Machine Learning Classification &amp; NLP heuristic parsing for social engineering vectors.</li>
+              <li>Multi-Photo OCR extraction to decrypt text embedded within spoofed transaction receipts.</li>
+              <li>Shannon URL Entropy analysis flagging character randomness in typo-squatted domains.</li>
+            </ul>
+            <div class="flagship-actions-row">
+              <a href="https://swapnaneelnaskar.github.io/AiScamDetection_Website/" target="_blank" rel="noopener noreferrer" class="btn btn-crimson" title="Launch the live AI Scam Detection platform in a new tab">
+                <span>LAUNCH LIVE PORTAL</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                </svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/AiScamDetection_Website" target="_blank" rel="noopener noreferrer" class="btn btn-glass" title="Open the GitHub repository">
+                <span>VIEW GITHUB REPO</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Flagship 3: Bharat Astra -->
+        <article class="glass-card flagship-card">
+          <div class="flagship-header">
+            <div class="flagship-badge">
+              <span>●</span> LOGISTICS &amp; COMMERCE // SCALE ECOSYSTEM
+            </div>
+            <div class="flagship-meta">
+              Scope: 177+ Products &bull; 68 Airports &bull; 18 Railway Zones &bull; 305+ Theaters
+            </div>
+          </div>
+          <div class="flagship-body">
+            <h3 class="flagship-title">Bharat Astra &mdash; Scale Ecosystem</h3>
+            <p class="flagship-desc">
+              Next-generation Indian e-commerce, travel, and logistics platform consolidating multiple commercial verticals into a unified, high-concurrency interface.
+            </p>
+            <ul class="flagship-bullets">
+              <li>Multi-vertical architecture connecting retail, hospitality, rail transit, and aviation bookings.</li>
+              <li>Side-by-side hardware spec comparison matrices with instant client filtering.</li>
+              <li>Optimized responsive design ensuring seamless mobile ergonomics across zero-lag viewports.</li>
+            </ul>
+            <div class="flagship-actions-row">
+              <a href="https://swapnaneelnaskar.github.io/bharat-astra/" target="_blank" rel="noopener noreferrer" class="btn btn-crimson" title="Launch the live Bharat Astra platform in a new tab">
+                <span>LAUNCH LIVE PORTAL</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                </svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/bharat-astra" target="_blank" rel="noopener noreferrer" class="btn btn-glass" title="Open the GitHub repository">
+                <span>VIEW GITHUB REPO</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Flagship 4: NEXUS Weather -->
+        <article class="glass-card flagship-card">
+          <div class="flagship-header">
+            <div class="flagship-badge">
+              <span>●</span> GEOSPATIAL // REALTIME API
+            </div>
+            <div class="flagship-meta">
+              Telemetry: Live Atmospheric Feeds &bull; Interactive Leaflet Vectors
+            </div>
+          </div>
+          <div class="flagship-body">
+            <h3 class="flagship-title">NEXUS Weather &amp; Geospatial Intelligence Map</h3>
+            <p class="flagship-desc">
+              Interactive meteorological intelligence dashboard featuring live geolocation weather telemetry, precipitation radar maps, and atmospheric forecasting.
+            </p>
+            <ul class="flagship-bullets">
+              <li>Real-time OpenWeather atmospheric parameter streaming with low-latency fetching.</li>
+              <li>Interactive geospatial vector tile mapping rendered with Leaflet.js.</li>
+              <li>High-contrast noir glassmorphic interface with dynamic wind and humidity vectors.</li>
+            </ul>
+            <div class="flagship-actions-row">
+              <a href="https://swapnaneelnaskar.github.io/weather_web/" target="_blank" rel="noopener noreferrer" class="btn btn-crimson" title="Launch the live NEXUS Weather application in a new tab">
+                <span>LAUNCH LIVE PORTAL</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                </svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank" rel="noopener noreferrer" class="btn btn-glass" title="Open the GitHub repository">
+                <span>VIEW GITHUB REPO</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 03: THE SYSTEMS MATRIX (BENTO GRID) -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <div class="section-tag">ENGINEERING INDEX</div>
+        <h2 class="section-title">The Systems Matrix</h2>
+        <p class="section-desc">
+          Specialized architectures spanning full-stack web, machine learning heuristics, and core computer science foundations.
+        </p>
+
+        <!-- Filter Controls -->
+        <div class="bento-controls">
+          <button class="filter-btn active" data-filter="all">All Systems (6)</button>
+          <button class="filter-btn" data-filter="web">Full-Stack &amp; Web</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Cybersecurity</button>
+          <button class="filter-btn" data-filter="systems">Core CS &amp; Systems</button>
+        </div>
+      </div>
+
+      <div class="bento-grid">
+        <!-- System 1 -->
+        <div class="glass-card bento-card" data-category="web">
+          <div class="bento-top">
+            <span class="category-chip">Full-Stack</span>
+            <span class="bento-id">#SYS-01</span>
+          </div>
+          <h3 class="bento-title">Biometric Student Information Portal</h3>
+          <p class="bento-desc">React 19 academic portal with client-side face recognition, optimistic state mutation, and role-based institutional authentication.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">React 19</span>
+              <span class="tag">FaceAPI</span>
+              <span class="tag">Tailwind</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://swapnaneelnaskar.github.io/student-info-portal/" target="_blank" rel="noopener noreferrer" class="bento-live-btn" title="Launch live Student Information Portal">
+                <span class="bento-live-dot"></span>
+                <span>LAUNCH LIVE</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/student-info-portal" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open Repository" title="GitHub Repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- System 2 -->
+        <div class="glass-card bento-card" data-category="ai">
+          <div class="bento-top">
+            <span class="category-chip">Cybersecurity</span>
+            <span class="bento-id">#SYS-02</span>
+          </div>
+          <h3 class="bento-title">AI Scam &amp; Threat Detection Engine</h3>
+          <p class="bento-desc">Machine learning pipeline parsing message phishing indicators, multi-photo OCR slip extraction, and Shannon URL entropy risk index.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">Python</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">OCR</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://swapnaneelnaskar.github.io/AiScamDetection_Website/" target="_blank" rel="noopener noreferrer" class="bento-live-btn" title="Launch live AI Scam Detection">
+                <span class="bento-live-dot"></span>
+                <span>LAUNCH LIVE</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/AiScamDetection_Website" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open Repository" title="GitHub Repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- System 3 -->
+        <div class="glass-card bento-card" data-category="web">
+          <div class="bento-top">
+            <span class="category-chip">Logistics</span>
+            <span class="bento-id">#SYS-03</span>
+          </div>
+          <h3 class="bento-title">Bharat Astra National Transit Mesh</h3>
+          <p class="bento-desc">Unified commerce and logistics ecosystem covering 68 airports, 18 railway zones, and 305+ theaters across Indian metropolitan centers.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://swapnaneelnaskar.github.io/bharat-astra/" target="_blank" rel="noopener noreferrer" class="bento-live-btn" title="Launch live Bharat Astra Platform">
+                <span class="bento-live-dot"></span>
+                <span>LAUNCH LIVE</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/bharat-astra" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open Repository" title="GitHub Repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- System 4 -->
+        <div class="glass-card bento-card" data-category="web">
+          <div class="bento-top">
+            <span class="category-chip">Geospatial</span>
+            <span class="bento-id">#SYS-04</span>
+          </div>
+          <h3 class="bento-title">NEXUS Atmospheric &amp; Spatial Map</h3>
+          <p class="bento-desc">Real-time geospatial intelligence application rendering vector tile maps, radar forecasts, and atmospheric telemetry.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">Leaflet</span>
+              <span class="tag">REST API</span>
+              <span class="tag">OpenWeather</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://swapnaneelnaskar.github.io/weather_web/" target="_blank" rel="noopener noreferrer" class="bento-live-btn" title="Launch live NEXUS Weather Map">
+                <span class="bento-live-dot"></span>
+                <span>LAUNCH LIVE</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar/weather_web" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open Repository" title="GitHub Repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- System 5 -->
+        <div class="glass-card bento-card" data-category="systems">
+          <div class="bento-top">
+            <span class="category-chip">Algorithms</span>
+            <span class="bento-id">#SYS-05</span>
+          </div>
+          <h3 class="bento-title">Deterministic Sorting &amp; Graph Utilities</h3>
+          <p class="bento-desc">Algorithmic implementations in C/C++ and Python covering graph traversals (BFS/DFS), shortest path (Dijkstra), and binary search trees.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">C++</span>
+              <span class="tag">Python</span>
+              <span class="tag">DSA</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://github.com/SwapnaneelNaskar" target="_blank" rel="noopener noreferrer" class="bento-live-btn" style="background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.2); color: #e4e4e7;" title="View Source Repositories">
+                <span>INSPECT DSA</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open GitHub" title="GitHub Profile">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- System 6 -->
+        <div class="glass-card bento-card" data-category="systems">
+          <div class="bento-top">
+            <span class="category-chip">Systems</span>
+            <span class="bento-id">#SYS-06</span>
+          </div>
+          <h3 class="bento-title">Linux CLI Tools &amp; Automation Pipelines</h3>
+          <p class="bento-desc">Shell and Python automation pipelines for process management, file synchronization, Git workflows, and build verification.</p>
+          <div class="bento-footer">
+            <div class="bento-tags">
+              <span class="tag">Bash</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Git</span>
+            </div>
+            <div class="bento-actions">
+              <a href="https://github.com/SwapnaneelNaskar" target="_blank" rel="noopener noreferrer" class="bento-live-btn" style="background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.2); color: #e4e4e7;" title="View Source Repositories">
+                <span>INSPECT CLI</span>
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://github.com/SwapnaneelNaskar" target="_blank" rel="noopener noreferrer" class="bento-link" aria-label="Open GitHub" title="GitHub Profile">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04: DIRECT CONNECT / CONTACT -->
+    <section id="contact" class="section">
+      <div class="glass-card contact-card">
+        <div class="contact-glow-red"></div>
+        
+        <div class="contact-content">
+          <div class="section-tag">DIRECT CONNECT</div>
+          <h2 class="contact-title">Let's Architect Something Extraordinary.</h2>
+          <p class="contact-subtitle">
+            Available for software engineering internships, full-stack architecture roles, research collaborations, and open-source initiatives worldwide.
+          </p>
+
+          <div class="email-action-box">
+            <span class="email-address">swapnaneelnaskar2006@gmail.com</span>
+            <button class="btn btn-primary copy-btn" data-copy="swapnaneelnaskar2006@gmail.com" aria-label="Copy Email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy Email Address</span>
+            </button>
+          </div>
+
+          <!-- Social Links Row with LinkedIn, GitHub, Twitter/X, and Email -->
+          <div class="social-links-row">
+            <a href="https://www.linkedin.com/in/swapnaneel-naskar-70245a315/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn" style="border-color: rgba(6, 182, 212, 0.4); color: #06b6d4;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn: swapnaneel-naskar</span>
+            </a>
+
+            <a href="https://github.com/SwapnaneelNaskar" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0 1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>github.com/SwapnaneelNaskar</span>
+            </a>
+
+            <a href="https://x.com/ArghyaNaskar07" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+              </svg>
+              <span>x.com/ArghyaNaskar07</span>
+            </a>
+
+            <a href="mailto:swapnaneelnaskar2006@gmail.com" class="social-pill" aria-label="Direct Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Direct Email</span>
+            </a>
+          </div>
+
+          <div class="contact-footer-note">
+            &copy; 2026 Swapnaneel Naskar &bull; B.Tech Computer Science &amp; Engineering &bull; Techno India University<br>
+            Designed with Noir &amp; Crimson Op-Art. Built from first principles. Zero corporate fluff.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-notification">
+    <span class="toast-dot"></span>
+    <span id="toast-message">Email copied to clipboard!</span>
+  </div>
+
+</body>
+</html>

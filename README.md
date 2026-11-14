@@ -34,10 +34,11 @@
 
 <div align="center">
 
-### 🌐 Official Interactive Portfolio Website
+### 🌐 Official Interactive Portfolio Website &amp; Repository Source
 **[👉 Launch Live Website: swapnaneelnaskar.github.io ↗](https://swapnaneelnaskar.github.io/)**
 
-*Noir & Crimson Cybernetic Architecture • 7-Layer Architectural Stack Explorer • Multi-Agent Swarm Rebuild Engine*
+*Noir &amp; Crimson Cybernetic Architecture • 7-Layer Architectural Stack Explorer • Multi-Agent Swarm Rebuild Engine*  
+*The complete portfolio website source code (`index.html`, `style.css`, `app.js`, `swarm/`, etc.) is published right in this repository!*
 
 </div>
 
@@ -196,6 +197,39 @@
 <h2 align="center">🔴 Featured Architectural Spotlights</h2>
 
 <table width="100%" border="0" align="center">
+<tr>
+<td width="100%" align="center" style="padding: 24px; border: 1px solid rgba(239,68,68,0.4); border-radius: 12px; background: #0c0709;">
+  <h3>🌐 Cybernetic Systems Architecture Developer Portfolio</h3>
+  <p><i>The official developer portfolio website engineered from first principles without framework bloat. Features dynamic Crimson &amp; Noir Op-Art canvas paralles, an interactive 7-Layer Architectural Stack Explorer, an autonomous Multi-Agent Swarm rebuild engine, live project matrices, and Web Audio API synthesizer soundscapes.</i></p>
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/CSS3_Op--Art-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Web_Audio_API-000000?style=flat-square&logo=audio&logoColor=white" alt="Web Audio" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Swarm_Engine-EF4444?style=flat-square&logo=electron&logoColor=white" alt="Swarm Engine" />
+  </p>
+  <p>
+    <code>Vanilla JavaScript &amp; Canvas</code> • <code>Glassmorphism &amp; Op-Art</code> • <code>7-Layer Constitutional Stack</code> • <code>Synthesizer Sound FX</code>
+  </p>
+  <br />
+  <p>
+    <a href="https://swapnaneelnaskar.github.io/" target="_blank">
+      <img src="https://img.shields.io/badge/Live%20Website-🌐%20Launch%20Portfolio-EF4444?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0a" alt="Launch Live Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/SwapnaneelNaskar/SwapnaneelNaskar" target="_blank">
+      <img src="https://img.shields.io/badge/Repository-⚡%20View%20Source%20Code-111111?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="View Source Code" />
+    </a>
+  </p>
+</td>
+</tr>
+
+<tr><td height="16"></td></tr>
+
 <tr>
 <td width="100%" align="center" style="padding: 24px; border: 1px solid rgba(239,68,68,0.35); border-radius: 12px; background: #0c0709;">
   <h3>🎓 Student Information Portal — React 19 Academic Ecosystem</h3>
