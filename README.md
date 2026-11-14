@@ -9,6 +9,14 @@
 </p>
 
 <p align="center">
+  <a href="https://swapnaneelnaskar.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-🌐%20Launch%20Website-EF4444?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0a" alt="Live Portfolio Website" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/swapnaneel-naskar-70245a315/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a" alt="LinkedIn" />
+  </a>
+  &nbsp;
   <a href="https://github.com/SwapnaneelNaskar" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Follow-111111?style=for-the-badge&logo=github&logoColor=EF4444&labelColor=0a0a0a" alt="GitHub" />
   </a>
@@ -21,6 +29,17 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SwapnaneelNaskar&label=PROFILE%20VIEWS&color=dc2626&style=for-the-badge" alt="Profile Views" />
 </p>
+
+---
+
+<div align="center">
+
+### 🌐 Official Interactive Portfolio Website
+**[👉 Launch Live Website: swapnaneelnaskar.github.io ↗](https://swapnaneelnaskar.github.io/)**
+
+*Noir & Crimson Cybernetic Architecture • 7-Layer Architectural Stack Explorer • Multi-Agent Swarm Rebuild Engine*
+
+</div>
 
 ---
 
